@@ -1,3 +1,7 @@
+body {
+  font-family: "Josefin Sans", sans-serif;
+  color: #565252;
+}
 .logo {
   width: 120px;
   height: auto;
@@ -40,20 +44,31 @@ hr {
   border: none;
   border-top: 2px solid #565252;
   box-shadow: 1px 2px;
+  height: 1px;
+  color: #565252;
 }
 .quote {
   margin: 50px 0px 0px 300px;
 }
 .logoCon {
   width: 120px;
-  height: auto;
+  height: 120px;
   float: right;
   margin: 20px 350px 0px 0px;
 }
 form {
-  margin: 30px 0px 0px 300px;
+  margin: 30px 0px 0px 320px;
 }
 p {
-  margin: 0px 0px 0px 0px;
   float: right;
+  padding-right: 250px;
+  font-size: 20px;
+  padding-top: 0px;
+  margin: 0px;
+  width: 250px;
+}
+.lineBottom {
+  margin-top: 50px;
+  margin-right: 120px;
+  margin-left: 120px;
 }
