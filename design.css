@@ -59,6 +59,24 @@ hr {
 form {
   margin: 30px 0px 0px 320px;
 }
+button {
+  background-color: #eee6ae;
+  border-color: #cecfc9;
+  color: #565252;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 12px;
+  margin-left: 45px;
+  font-family: "Josefin Sans", sans-serif;
+}
+button:hover {
+  background-color: #565252;
+  color: #cecfc9;
+  transition: all 500ms ease;
+}
 p {
   float: right;
   padding-right: 250px;
@@ -71,4 +89,15 @@ p {
   margin-top: 50px;
   margin-right: 120px;
   margin-left: 120px;
+}
+.Con {
+  text-align: center;
+}
+.contactinfo {
+  width: 300px;
+  border: 7px solid #565252;
+  padding: 5px;
+  margin: 0px 10px 20px 150px;
+  font-family: "Josefin Sans", sans-serif;
+  color: #565252;
 }
